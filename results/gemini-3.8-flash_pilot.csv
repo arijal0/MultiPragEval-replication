@@ -1,0 +1,152 @@
+model,trial,id,type,language,prompt,raw_response,prediction,gold,correct
+gemini-3.8-flash,1,7,quantity,english,"Charlie and Emily, who are in the same club, got into an argument at a club meeting last week. It's almost time for today's meeting and Charlie hasn't shown up. Michael, a friend from the club, asks Emily why he hasn't shown up. Emily tells him as follows:
+
+""Either he comes or he doesn't.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Emily doesn't care if Charlie comes or not.
+(B) Charlie may or may not come.    
+(C) Emily decided to apologize to Charlie.
+(D) Emily is not a good speaker.
+(E) None of the above.","The correct option is **(A) Emily doesn't care if Charlie comes or not.**
+
+### Explanation:
+Literally, the statement ""Either he comes or he doesn't"" is a tautology (it states something that is logically always true) and flouts the conversational Maxim of Quantity (giving no informative answer to *why* he hasn't shown up). 
+
+In pragmatics, when a speaker deliberately uses such a tautology in this context—especially right after an argument—it conveys a conversational implicature of indifference. Emily is signaling that Charlie's decision whether or not to attend is none of her concern.",A,A,True
+gemini-3.8-flash,1,31,quantity,english,"Charlie recently won a bonus and bought a gaming console for his younger sister, Emily. When he asked Emily if she liked the game, she said:
+
+""You get what you pay for.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Emily wants a more expensive model of the game console.
+(B) When you pay for an item, you can take it home.
+(C) Emily likes the game console.
+(D) Emily will sell the game console at a high price.
+(E) None of the above.","The correct answer is **(E) None of the above.**
+
+### Explanation:
+The idiom **""You get what you pay for""** means that the quality of an item corresponds directly to how much money was spent on it (typically implying that something inexpensive is of inferior or mediocre quality). 
+
+Emily is subtly implying that the console or game is not very good (likely because it was cheap), but the utterance itself does not mean:
+* She necessarily demands a more expensive one (A),
+* A literal transaction statement (B),
+* That she likes it (C),
+* That she will sell it (D). 
+
+Therefore, **(E)** is the most appropriate choice.",E,C,False
+gemini-3.8-flash,1,79,quality,english,"When Emily told Charlie that she knows that he went to the library yesterday, Charlie replied:
+
+""You're a psychic.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Emily works as a psychic.
+(B) Charlie went to the library yesterday.
+(C) Emily's movements are fast.
+(D) Emily has a younger brother.
+(E) None of the above.","The correct option is **(B) Charlie went to the library yesterday.**
+
+**Explanation:** 
+When Charlie says, ""You're a psychic,"" he is using a common figure of speech to humorously confirm that Emily's statement was accurate. He is acknowledging that he did, in fact, go to the library yesterday.",B,B,True
+gemini-3.8-flash,1,103,quality,english,"Emily is trying to think of a new idea to submit to a design competition. When she can't come up with anything she's happy with, she says to Charlie:
+
+""My mind's gone blank.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Charlie is not as creative as Emily.
+(B) Emily's mind is an empty space, with nothing inside.
+(C) Emily majored in neuroscience.
+(D) Emily's creativity is depleted.
+(E) None of the above.","The most appropriate meaning of the utterance in this context is **(D) Emily's creativity is depleted.**
+
+**Explanation:**
+The idiom ""my mind has gone blank"" is a metaphorical expression meaning that someone is suddenly unable to think of any ideas or recall information. In the context of a design competition, it means Emily feels temporarily out of ideas and unable to produce anything creative. Option (B) is a literal misinterpretation, while (A) and (C) are irrelevant.",D,D,True
+gemini-3.8-flash,1,151,relation,english,"Charlie asked Emily if she would like to go camping with him in the mountains. Emily reponded:
+
+""I hate bugs.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Charlie and Emily like camping.
+(B) Emily doesn't like bugs.
+(C) Emily doesn't want to camp in the mountains.
+(D) There are many bugs in the mountains.
+(E) None of the above.","The most appropriate meaning of Emily's utterance in this context is **(C) Emily doesn't want to camp in the mountains.**
+
+**Reasoning:** 
+Emily's response is an indirect speech act (conversational implicature). While literally stating that she dislikes bugs, the pragmatic meaning of her statement in response to Charlie's invitation is that she is declining the offer to go camping, as outdoor camping in the mountains involves exposure to bugs.",C,C,True
+gemini-3.8-flash,1,175,relation,english,"Charlie asked Emily if she would like to take a trip to the ocean with him in the summer. Emily responded:
+
+""I'm afraid of water.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Emily is willing to take a trip to the sea.
+(B) Emily confesses that she is afraid of heights.
+(C) Charlie is planning a trip to the east coast in the summer.
+(D) Charlie devises a way to overcome Emily's fear.
+(E) None of the above.","The correct option is **(E) None of the above.**
+
+**Reasoning:**
+Emily's utterance implicitly declines Charlie's invitation or expresses hesitation about going to the ocean because she has a fear of water. 
+* **(A)** is incorrect because she is expressing hesitation or refusal, not willingness.
+* **(B)** is incorrect because she mentions fear of *water*, not *heights*.
+* **(C)** and **(D)** do not describe the meaning of Emily's utterance. 
+
+Therefore, none of the options (A)–(D) are correct.",E,E,True
+gemini-3.8-flash,1,223,manner,english,"Charlie's body has noticeably improved recently. When Michael asks Emily, who is best friends with Charlie, if Charlie is working out hard, Emily says:
+
+""He doesn't miss a day at the gym.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Protein is important for building muscle.
+(B) Charlie hasn't missed a single day at the gym.
+(C) Charlie works out at home instead of going to the gym.  
+(D) Charlie exercises regularly.
+(E) None of the above.","The most appropriate meaning of the utterance is **(D) Charlie exercises regularly.**
+
+**Reasoning:**
+Emily's statement, ""He doesn't miss a day at the gym,"" is a common hyperbole (idiomatic expression) used to convey that someone works out very consistently and frequently (regularly), rather than being a strictly literal assertion that he has literally gone all 365 days without a single break (which makes B less appropriate than D as an intended meaning).",D,D,True
+gemini-3.8-flash,1,187,manner,english,"Charlie likes Emily, whom he met on a blind date, and wants to ask her out afterward. When he asks when they can meet up again, Emily says:
+
+""Maybe someday when we're free.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Emily wants to decline the request for a second date.
+(B) Emily is suggesting that they meet again sometime.
+(C) Emily wants to accept the request for a second date, but she doesn't have time.
+(D) Emily is going to visit Charlie's parents.
+(E) None of the above.","The most appropriate meaning of the utterance is **(A) Emily wants to decline the request for a second date.**
+
+**Reasoning:**
+In social contexts and conversational pragmatics, phrases like ""Maybe someday when we're free"" are typically non-committal and vague polite refusals (a soft rejection). If she intended to meet again, she would generally suggest a specific timeframe or express genuine interest.",A,A,True
+gemini-3.8-flash,1,295,literal,english,"On his way to Penn Station by bus, Charlie saw an elderly woman get on the bus and stood up from where he was sitting. Charlie said:
+
+""Ma'am, please sit here.""
+
+Choose the most appropriate meaning of the above utterance from the following options.
+(A) Charlie is inviting an elderly gentleman to sit in his seat.
+(B) The seat Charlie was sitting in was a pregnant woman's seat.
+(C) The elderly lady is carrying a heavy bag and will not be able to stand.
+(D) Charlie prefers to stand on the bus.
+(E) None of the above.","The correct option is **(E) None of the above.**
+
+**Reasoning:**
+* **(A)** is incorrect because he is addressing an elderly *woman* (""Ma'am""), not a gentleman.
+* **(B)** and **(C)** introduce assumptions not mentioned or implied in the text. 
+* **(D)** is incorrect because offering a seat out of politeness to an elderly person does not mean he prefers standing. 
+
+Therefore, none of the options accurately reflect the meaning of Charlie's polite offer to let the elderly woman have his seat.",E,E,True
+gemini-3.8-flash,1,259,literal,english,"Charlie, who is taking the ""Introduction to German Studies"" course this semester, asked Emily, who took the same course last semester, how well she did. Emily responded:
+
+""I messed up the other subjects, but I still got an A+ in Introduction to German Studies.""
+
+From the following options, choose the most appropriate meaning of the statement above:
+(A) Emily is confident that Charlie will also get an A+ in the ""Introduction to German Studies"" course this semester.
+(B) Emily received an A+ in the ""Introduction to German Studies"" course last semester.
+(C) Emily is persuading Charlie not to take the ""Introduction to German Studies"" course.
+(D) Emily got an A+ in other subjects last semester too.
+(E) None of the above.","The most appropriate option is **(B) Emily received an A+ in the ""Introduction to German Studies"" course last semester.**
+
+**Explanation:**
+* Emily directly states: *""I still got an A+ in Introduction to German Studies,""* referring to the course she took last semester.
+* **(A)** and **(C)** assume advice or predictions about Charlie that are not mentioned in her statement.
+* **(D)** contradicts her statement that she *""messed up the other subjects.""*",B,B,True
